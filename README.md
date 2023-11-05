@@ -4,9 +4,9 @@
 
 ## Características
 
-**Búsqueda de Personajes sin Esfuerzo:** Busca sin problemas a los personajes de Rick y Morty por sus nombres, facilitando encontrar tus favoritos dentro de la amplia colección.
+- **Búsqueda de Personajes sin Esfuerzo:** Busca sin problemas a los personajes de Rick y Morty por sus nombres, facilitando encontrar tus favoritos dentro de la amplia colección.
 
-**Tarjetas Informativas de Personajes:** Cada personaje se presenta de manera hermosa en una tarjeta, mostrando información esencial como nombre, estado y especie, permitiendo a los fans aprender rápidamente más sobre sus personajes queridos.
+- **Tarjetas Informativas de Personajes:** Cada personaje se presenta de manera hermosa en una tarjeta, mostrando información esencial como nombre, estado y especie, permitiendo a los fans aprender rápidamente más sobre sus personajes queridos.
 
 - **Diseño Responsivo:** Esta aplicación está meticulosamente diseñada para ser completamente responsiva, garantizando una experiencia fluida en una variedad de dispositivos y tamaños de pantalla. Ya sea que estés accediendo desde un ordenador de escritorio, una tablet o un smartphone, el diseño se ajusta perfectamente para ofrecer una experiencia de visualización óptima.
 
