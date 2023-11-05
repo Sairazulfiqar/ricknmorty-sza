@@ -1,25 +1,20 @@
 .home-container{
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    align-items: center;
+    flex-direction: column;
     background-color: #2B3848;
 }
-
-/* #rmlogo{
-    display: flex;
-    height: 150px;
-    width: auto;
-}
-
-#rmimg{
-    display: flex;
-    height: 150px;
-    width: auto;
-} */
 
 #logo{
     display: flex;
     height: 400px;
     width: auto;
+}
+
+@media (max-width: 410px) and (min-width:300px){
+    #logo{
+        height: 300px;
+    }
 
 }

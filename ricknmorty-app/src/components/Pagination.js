@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-const Pagination = ({prev,next, onPrev, onNext}) => {
+const Pagination = ({prev, next, onPrev, onNext}) => {
 
     const handlePrev = () => {
         onPrev();
@@ -20,14 +20,13 @@ const Pagination = ({prev,next, onPrev, onNext}) => {
                         </button>
                     </li>
                 ) : null}
-                {
-                    next ? (
-                        <li className='page-item'>
-                            <button className='page-link' onClick={handleNext}>
-                                Next
-                            </button>
-                        </li>
-                    ) : null}
+                {next ? (
+                    <li className='page-item'>
+                        <button className='page-link' onClick={handleNext}>
+                            Next
+                        </button>
+                    </li>
+                ) : null}
 
             </ul>
 

@@ -1,14 +1,22 @@
-/* .card{
-    min-width: 200px;
 
-} */
-
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 .card{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid greenyellow;
+    background-color: #2B3848;
+    color: white;
+    border-radius: 100px 100px 10px 10px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
+}
 
+.card:hover{
+    background-color: white;
+    color: rgb(37, 37, 37);
 }
 
 img{
@@ -17,4 +25,40 @@ img{
     height: auto;
     border-radius: 50%;
     object-fit: contain;
+}
+
+.status-info{
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    width: 100px;
+    height: 25px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.status{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.status-p p{
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 769px) and (min-width:479px){
+    .card{
+        border-radius: 100px 100px 10px 10px;
+        width: 210px;
+    }
+}
+
+@media (max-width: 462px) and (min-width:300px){
+    
+    .card{
+        border-radius: 100px 100px 10px 10px;
+        width: 210px;
+    }
 }
