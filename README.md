@@ -29,7 +29,7 @@ Para ejecutar esta aplicación localmente, sigue estos pasos:
 
 2. Navega al directorio del proyecto:
    ```
-   cd rick-and-morty-character-search
+   cd ricknmorty-app
    ```
 
 3. Instala las dependencias necesarias usando npm:
